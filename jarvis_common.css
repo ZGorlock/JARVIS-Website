@@ -1,0 +1,27 @@
+body {
+	background-color: #000000;
+	color: #00ff00;
+	font: normal normal normal 12px oloron, monospace;
+}
+
+h1 {
+	font: normal bold normal 48px monospace;
+	text-align: center;
+	text-decoration: underline, overline;
+	text-transform: uppercase;
+	border: 1px solid #00ff00;
+}
+
+a.homelink {
+	font: normal bold normal 16px monospace;
+}
+
+a:link {
+	color: #00ff00;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #00ff00;
+	text-decoration: underline;
+}

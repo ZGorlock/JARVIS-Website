@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<title>JARVIS</title>
+		<link rel="stylesheet" type="text/css" href="jarvis_common.css" />
+		<link rel="stylesheet" type="text/css" href="jarvis_known_issues.css" />
+	</head>
+	<body>
+		<h1>Known Issues</h1>
+		<- <a href="jarvis_home.htm" class="homelink">Return to Home</a>
+		<br />
+		<p>Below is a list of known errors of JARVIS. These are only the ones that I have found and I am sure there are many more, if you happen to find any please send me an email from the <b><u><a href="jarvis_contact.htm">Contact</a></u></b> section or include it in a report the next time you are asked to send one. After sending me your findings, it will be added to this page as soon as possible, and will hopefully be fixed in the next update. Also, if you are very familiar with QB64, or computers and programming in general, feel free to attemp to fix some of the issues listed here, it would be greatly appreciated. However, let me know if you are working or want to work on something, that way we aren't both working on the same problem when we don't need to be.</p>
+		<br />
+		<p>Ok, this one, I think, deserves a paragraph instead of just a bullet point. This program was designed to work on Windows XP Proffesional SP3 and I can not guarentee it will work on any other version of Windows, and most definitely not any other operating systems. I also can not guarentee that it will work on Windows XP Professional SP3 in all cases as is evident by this page. The reason that it probably will not work in other versions of Windows is because certain kit tools were not meant for that version and fail to preform their function the first time you run the program which will lead to problems down the road, and also because some commands use DOS Shell commands that are, in some cases, specific to Windows XP. One of the major problems with Windows Vista and Windows 7 is that the built in speech recognition is very aggressive and takes first priority, this means that some commands will be carried out by the system instead of JARVIS, and JARVIS will not recieve speech data unless the system speech recognition is turned on and JARVIS is the foregroung window. I have included in the download section a version that should work, in most cases, on Windows Vista and Windows 7. This is just a temporary fix however and I hope that someday we can have full compatability in other versions of Windows and maybe even alternate operating systems. If anyone is interested in helping in such a project please let me know!</p>
+		<ul>
+			<li>After awakening the computer from standby, JARVIS's speech recognition fails to reinitiate.</li>
+			<li>JARVIS is unable to increase and decrease the dimming percentage on ScreenDim.exe.</li>
+			<li>Occasionally the process sapisvr.exe (associated with speech recognition) accumulates too much memory and must be closed from the task manager. If your JARVIS and your computer in general begin to get very slow, check for this issue.</li>
+			<li>Occasionally when tools like the log or fractal programs are called they do not open, but instead delete themselves (this may just be a local antivirus problem, i will look more into it later).</li>		
+		</ul>
+		<p>Your JARVIS may have very low accuracy in understanding your speech. This is not an error! In order for JARVIS to understand you better you must train your speech profile, there is more information on how to do that in the <b><u><a href="jarvis_set-up.htm">Set-up</a></u></b> section.</p>
+		<br />
+		<p>Have a solution or idea for any of these issues? Send me an email from the <a href="jarvis_contact.htm">Contact</a> section, your contribution will be greatly appreciated!</p>
+	</body>
+</html>

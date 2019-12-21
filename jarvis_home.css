@@ -1,0 +1,8 @@
+body {
+	background: #000000 url("brain.png") no-repeat fixed center center;
+}
+
+ul {
+	font: normal bold normal 16px monospace;
+	text-transform: uppercase;
+}

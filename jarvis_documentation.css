@@ -1,0 +1,26 @@
+h2 {
+	font: normal bold normal 18px monospace;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+h3 {
+	font: normal bold normal 16px monospace;
+	text-transform: capitalize;
+}
+
+li {
+	text-transform: capitalize;
+}
+
+span.c1 {
+	color: #00ff00
+}
+
+span.c2 {
+	color: #0000ff
+}
+
+span.c3 {
+	color: #cc0000
+}
